@@ -9,37 +9,45 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning">
-  <a class="navbar-brand" href="#">Jogos</a>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/fantasma.png">
+
+    <title>Jogos</title>
+ <!-- nav bar -->
+<section>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning">
+
+  <a class="navbar-brand" href="#">
+    <img src="img/logo.svg" width="60%" height="60%" loading="lazy">
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Sobre <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#sobre">Sobre <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Os melhores</a>
+        <a class="nav-link" href="#melhores">Os melhores</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Gêneros
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Em breve...</a>
-        </div>
-      </li>
+    
     </ul>
 
-  </div>
-</nav>
+     </div>
+    </nav>
+</section>
 
-    <title>Hello, world!</title>
+   
   </head>
+
+
   <body>
- 
+
+    <!-- carrossel -->
+<section>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -66,13 +74,208 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+</section> 
+
+    <!-- conteúdo -->
+<section class="preto">
+    <div class="container">
+        <img src="img/pac-man.png" id="pac" class="col-md-3 col-lg-12 d-none d-md-block">
+        <div class="textos">
+
+         <div id="sobre">
+        <h2>Sobre jogos eletrônicos </h2>  
+        <p>Um jogo eletrônico ou jogo eletrônico é um jogo no qual o jogador interage através de periféricos conectados ao aparelho, como controles e/ou teclado com imagens enviadas a uma televisão ou um monitor, ou seja, aquele que usa tecnologia de computador.</p>  
+        <p>Hoje em dia eles podem ser jogados com conexão a internet - jogos cooperativos ou competitivos - ou offline - jogos de história.</p>
+        <p>No início, os jogos eletrônicos eram bastante simples, com gráficos básicos e sem som. William A. Higinbotham criou um dos primeiros videogames, Tennis for Two (“tênis para dois”), em 1958. O primeiro jogo de fliperama chamou-se Computer Space e foi lançado em 1971. Logo outros jogos de sucesso surgiram, como Pong, Invasores do espaço e Pac-Man. O primeiro console caseiro também surgiu nessa época.</p>
+        <p>Em 1977, a empresa Atari lançou um console com cartuchos removíveis. Cada cartucho fazia rodar um jogo diferente. Com esse sistema, os jogos eletrônicos ganharam popularidade, mas as pessoas ainda queriam imagens e sons melhores.</p>
+         </div>
+
+         <div id="melhores">
+        <h2>Os melhores</h2>  
+        <h3>Minecraft</h3> 
+        <div class="quantidade"><h1><span data-toggle="counter-up">126,000,000</span></h1>
+        <h2>de jogadores online mensalmente</h2>  
+        </div> 
+        <p>Minecraft é um jogo com gráficos inteiramente quadrados onde se coleta recursos, mata monstros, sobrevive e constrói.</p>
+        <p>Há dois modos: sobrevivência - no qual o jogador tem que sobreviver aos desafios do jogo - e criativo - onde há recursos e blocos infinitos para fazer construções.</p>
+        <h3> Monstros </h3>
+
+
+                    <div class="card mb-3" style="max-width: 540px;">
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img src="img/zumbi.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Zumbi</h5>
+                            <p class="card-text">Verde e podre, é um morto-vivo que vem te atrapalhar.</p>
+                            <p class="card-text">Ouça o som emitido por ele logo abaixo!</p>
+                            <audio controls>
+                            <source src="audio/zumbi.ogg" type="audio/ogg">
+                            </audio>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card mb-3" style="max-width: 540px;">
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img src="img/esqueleto.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Esqueleto</h5>
+                            <p class="card-text">Puro osso, é outro morto-vivo que também vem te atrapalhar.</p>
+                            <p class="card-text">Ouça o som emitido por ele logo abaixo!</p>
+                            <audio controls>
+                            <source src="audio/esqueleto.ogg" type="audio/ogg">
+                            </audio>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <h3>Modo de ataque</h3>
+                 <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                     
+                      <th scope="col">Monstro</th>
+                      <th scope="col">Item</th>
+                      <th scope="col">Dano</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                     
+                      <td>Zumbi</td>
+                      <td>Nenhum</td>
+                      <td>1 coração e 0,5</td>
+                    </tr>
+                    <tr>
+                  
+                      <td>Esqueleto</td>
+                      <td>Arco e flecha</td>
+                      <td>de 0,5 a 2 corações</td>
+                    </tr>
+                  </tbody>
+                </table> 
+
+                <h3>Sonic</h3>
+                <div class="quantidade"><h1><span data-toggle="counter-up">29</span></h1>
+                <h2>anos desde o lançamento do primeiro jogo</h2>  
+                </div> 
+                <p>Sonic é um jogo de plataforma de um ouriço azul que luta contra um bigodudo maluco.</p>
+
+                  <h3>Trilha sonora e efeitos sonoros</h3>  
+               <div class="card-deck">
+                  <div class="card">
+                    <img src="img/sonic.gif" width="30%" height="40%" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Green Hill Zone</h5>
+                      <p class="card-text">A música da primeira fase é fantástica. Ouça abaixo.</p>
+                    </div>
+                    <audio controls>
+                        <source src="audio/sonic-green-hill.mp3" type="audio/mpeg">
+                    </audio>
+                  </div>
+
+                  <div class="card">
+                    <img src="img/sonic2.gif" width="30%" height="40%" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Menu do Jogo</h5>
+                      <p class="card-text">A música do menu também é incrível. Ouça abaixo.</p>
+                    </div>
+                    <audio controls>
+                        <source src="audio/sonic-screen.mp3" type="audio/mpeg">
+                    </audio>
+                  </div>
+
+                  <div class="card">
+                    <img src="img/anel.gif" width="30%" height="40%" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Anéis</h5>
+                      <p class="card-text">O som dos anéis é completamente nostálgico. Ouça abaixo.</p>
+                    </div>
+                    <audio controls>
+                        <source src="audio/sonic-anel.mp3" type="audio/mpeg">
+                    </audio>
+                    </div>
+                    </div>
+
+                    <h3>Evolução dos sprites ao longo do tempo</h3>
+
+                    <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                     
+                      <th scope="col">Sprite</th>
+                      <th scope="col">Jogo</th>
+                      <th scope="col">Ano de lançamento</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                     
+                      <td><img src="img/sprite-sonic-.png" width="50%" height="70%"></td>
+                      <td><img src="img/logo-sonic-1.png" class="um"></td>
+                      <td>1991</td>
+                    </tr>
+                    <tr>
+                  
+                     <td><img src="img/sprite-sonic-2.png" width="50%" height="70%"></td>
+                      <td><img src="img/logo-sonic-2.png" class="dois"></td>
+                      <td>1992</td>
+                    </tr>
+
+                    <tr>
+                  
+                      <td><img src="img/sprite-sonic-3.png" width="50%" height="70%"></td>
+                      <td><img src="img/logo-sonic-3.png" class="tres"></td>
+                      <td>1994</td>
+                    </tr>
+
+                    <tr>
+                  
+                      <td><img src="img/sprite-sonic-4.png" width="50%" height="70%"></td>
+                      <td><img src="img/logo-sonic-4.png" class="quatro"></td>
+                      <td>2017</td>
+                    </tr>
+
+                  </tbody>
+                </table> 
+
+        </div> 
+         </div>
+
+
+
+
+        </div>
+        </div>
+</section>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
+     <script type="text/javascript" src="js/counterup.min.js"></script>
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+   <script type="text/javascript" src="js/main.js"></script>
+   
   </body>
+  <footer>Desenvolvido por Sofia Aquino
+    <p>Referências bibliográficas: Wikipédia, Minecraft Wiki. Acesso em novembro/2020</p>
+    <img src="img/logo-soso.png" width="10%" height="10%">
+
+  </footer>
 </html>

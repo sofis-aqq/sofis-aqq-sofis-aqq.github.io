@@ -1,0 +1,117 @@
+.textos {
+
+	padding-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+	color: #ffff;
+
+
+}
+
+#sobre {
+
+	padding-bottom: none;
+	margin-bottom: none;
+
+}
+
+h2 {
+
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+
+}
+
+h3 {
+
+	margin-top: 5%;
+
+}
+
+
+.quantidade {
+
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 3%;
+	background-color: #FFD700;
+	color: black;
+	border-radius: 3%;
+	margin-bottom: 5%;
+
+
+}
+
+
+.preto {
+
+	background-color: black;
+
+}
+
+#pac {
+
+	padding-top: 5%;
+	padding-left: 10%;
+	padding-right: 13.7%;
+	background-color: black;
+
+}
+
+#melhores {
+
+	padding-top: 10%;
+	padding-bottom: 3%;
+
+
+}
+
+#carouselExampleIndicators {
+
+	padding-top: 8%;
+
+
+}
+
+.um {
+
+	margin: 15%;
+
+
+}
+
+.dois {
+
+	margin: 9%;
+
+}
+
+.tres {
+
+	margin-left:  5%;
+	margin-right: 5%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+
+}
+
+.quatro {
+
+
+	margin-left:  16%;
+	margin-right: 5%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+
+}
+
+footer {
+
+	color: #fff;
+	background-color: black;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
