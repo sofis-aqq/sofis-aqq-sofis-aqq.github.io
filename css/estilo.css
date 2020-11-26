@@ -30,6 +30,12 @@ h3 {
 
 }
 
+body {
+
+	background-color: black;
+
+}
+
 
 .quantidade {
 
@@ -114,4 +120,38 @@ footer {
 	text-align: center;
 	padding-top: 2%;
 	padding-bottom: 2%;
+}
+
+#galeria {
+
+	color: white;
+	margin-top: 3%;
+
+}
+
+#contato {
+
+	color: white;
+	background-color: black;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	margin-right: 20%;
+	margin-top: 10%;
+
+}
+
+.texto{
+
+	padding-left: 50%;
+}
+
+.gmail {
+
+	padding-left: none;
+
+}
+
+.container {
+
+	background-color: black;
 }
